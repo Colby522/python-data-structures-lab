@@ -40,9 +40,9 @@ print('Exercise 1:', manage_students())
 
 foods = ('steak', 'pasta', 'salmon')
 def combine_foods():
-    meal = []
+    meal = ''
     for food in foods:
-        meal.append(f'{food}')
+        meal += f'{food} '
     return meal
 
 # Call the function and print the result
